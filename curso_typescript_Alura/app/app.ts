@@ -5,6 +5,7 @@ const controller = new NegociacaoController();
 const form = document.querySelector('.form');
 
 if(form){
+    console.log("chegou aqui");
     form.addEventListener('submit', event => {
         event.preventDefault(); 
         controller.adiciona();
